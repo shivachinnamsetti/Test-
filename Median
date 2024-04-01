@@ -1,0 +1,8 @@
+ef find_median(arr):
+    n = len(arr)
+    if n % 2 == 0:
+        return (arr[n // 2 - 1] + arr[n // 2]) / 2
+    else
+        return arr[n // 2]
+arr = [1, 2, 3, 4, 5, 6, 7, 8, 9]
+print("Median of the array:", find_median(arr))
